@@ -6,7 +6,7 @@
 
 *Deployed to Ethereum Mainnet on 27-04-2020
 *Developed by the Technical Team of Greyzdorf BTR LLC
-
+ 
 Name of Coin: Greyzdorf dollar
 Ticker : USDG
 Tota Supply : Variable Supply ( based on backing of fiat )

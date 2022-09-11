@@ -12,7 +12,7 @@ contract ERC20_Contract{
     bool public openRaise = true;
     uint256 public raiseOption = 0;
     address payable internal management;
-    
+     
 	event Transfer(address indexed from, address indexed to, uint256 value);
 	event SendEth(address indexed to, uint256 value);
     

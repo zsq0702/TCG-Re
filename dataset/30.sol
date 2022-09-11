@@ -5,7 +5,7 @@ contract IdentityManager {
     mapping ( uint => Identity ) _identities;
     mapping ( address => uint ) _index;
     uint _currentIndex = 0;
-
+ 
     struct Identity {
         address pointer; // the address of the user it represents
         uint[] validators; // the addresses of the identities of the validators

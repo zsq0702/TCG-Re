@@ -10,7 +10,7 @@ contract Greeter2 {
     /// @dev 솔리티디에서는 enum 타입으로 key 타입을 지정할 수 없습니다.
     /// @dev value 타입으로는 모든 타입이 가능
     mapping (uint8 => string) helloByLang;
-
+ 
     string goodbyeKorean = "잘가!";
     string goodbyeEnglish = "Goodbye!";
 

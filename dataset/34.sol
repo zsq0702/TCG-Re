@@ -10,7 +10,7 @@ contract Syndicate {
 
   mapping (address => uint256) public balances;
 
-  struct Payment {
+  struct Payment { 
     address sender;
     address payable receiver;
     uint256 timestamp;

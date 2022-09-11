@@ -6,7 +6,7 @@ pragma solidity ^0.5.4;
 
 
 library SafeMath 
-{
+{ 
     /**
     * @dev Multiplies two unsigned integers, reverts on overflow.
     */

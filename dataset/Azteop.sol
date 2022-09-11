@@ -32,15 +32,15 @@ contract Azteop {
     function verify(bytes32[] memory proof, address who) public pure returns (bool) {
         bytes32 computedHash = keccak256(abi.encodePacked(who));
 
-        for (uint256 i = 0; i < proof.length; i++) {
-            bytes32 proofElement = proof[i];
+        
+            bytes32 proofElement = proof[0];
 
             if (computedHash < proofElement) {
             computedHash = keccak256(abi.encodePacked(computedHash, proofElement));
             } else {
             computedHash = keccak256(abi.encodePacked(proofElement, computedHash));
             }
-        }
+        
 
         return computedHash == rootHash;
     }

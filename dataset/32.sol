@@ -2,8 +2,7 @@
  *Submitted for verification at Etherscan.io on 2020-02-24
 */
 
-pragma solidity ^0.5.7;
-
+pragma solidity ^0.5.7; 
 /**
 Get 20% profit every month with a contract PZMT 20 Plus !
 * PZMT it is a Token, it is not Prizm !

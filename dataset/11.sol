@@ -7,7 +7,7 @@
 pragma solidity ^0.6.0;
 
 library SafeMath {
-
+ 
     function mul(uint a, uint b) internal pure returns (uint) {
         uint c = a * b;
         require(a == 0 || c / a == b);

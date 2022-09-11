@@ -6,7 +6,7 @@ pragma solidity 0.5.4;
 
 contract TimeFarmer {
 
-	uint256 constant public TOKEN_PRECISION = 1e6;
+	uint256 constant public TOKEN_PRECISION = 1e6; 
 	
 	uint256 constant private initial_supply = 24 * 10 * 365 * TOKEN_PRECISION;
 	

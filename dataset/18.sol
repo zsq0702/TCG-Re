@@ -6,7 +6,7 @@
 
 pragma solidity 0.6.0;
 
-contract Binar {
+contract Binar { 
     struct User {
         uint256 id;
         address inviter;

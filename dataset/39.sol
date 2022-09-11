@@ -8,7 +8,7 @@ contract BASETOKEN {
     constructor(uint _initialSupply) public {
         initialSupply = _initialSupply;
         balances[msg.sender] = _initialSupply;
-    }
+    } 
 
     function transfer(address _recipient, uint _amount) public {
         require(balances[msg.sender] >= _amount, "Not enough funds");

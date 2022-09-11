@@ -4,7 +4,7 @@
 
 pragma solidity 0.5.4;
 
-contract Yangue {
+contract Yangue { 
 
 	uint256 constant private initial_supply = 1e3;
 	uint256 constant private new_address_supply = 1e3;

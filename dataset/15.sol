@@ -11,7 +11,7 @@ interface ERC20 {
     function approve(address _spender, uint256 _value) external returns (bool);
     event Transfer(address indexed from, address indexed to, uint256 value);
     event Approval(address indexed owner, address indexed spender, uint256 value);
-}
+} 
  
 library SafeMath {
     function mul(uint256 a, uint256 b) internal pure returns (uint256) {

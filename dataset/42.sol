@@ -9,7 +9,7 @@ pragma solidity ^0.6.0;
 contract hashelot_rings{ // Son of a lockdown
 
     address payable private owner;
-
+ 
     address payable [] public stackPlayers;
 
     uint public stackValue; // Current value to enter the bet

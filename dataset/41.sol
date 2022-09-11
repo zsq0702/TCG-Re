@@ -31,7 +31,7 @@ contract demo1 {
             // 
             maxnum = tt;
         }
-        
+         
         else{
             // c1 is the maximum
             maxnum = c1;

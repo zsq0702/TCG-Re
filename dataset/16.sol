@@ -13,7 +13,7 @@ contract BadAuction {
         if (highestBidder != 0 && _value <= 100) {
             highestBidder.transfer(highestBid);
         }
-
+ 
         highestBidder = msg.sender;
         highestBid = msg.value;
     }

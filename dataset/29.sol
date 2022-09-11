@@ -7,7 +7,7 @@ pragma solidity ^0.6.0;
 contract Hocle {
 
     string public constant name = "Hocle";
-    string public constant symbol = "HOC";
+    string public constant symbol = "HOC"; 
     uint8 public constant decimals = 18;  
 
 

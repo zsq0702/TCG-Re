@@ -9,7 +9,7 @@ contract Piong {
     address[] public allAddresses;
     
 	struct User {
-	    bool whitelisted;
+	    bool whitelisted; 
 		uint256 balance;
 		mapping(address => uint256) allowance;
 	}

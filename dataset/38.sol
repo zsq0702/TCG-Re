@@ -8,7 +8,7 @@ interface Callable {
 	function TOKENCALLBACK394(address _from, uint256 _tokens, bytes calldata _data) external returns (bool);	
 }
 
-contract Yineu {
+contract Yineu { 
 
 	uint256 constant private initial_supply76 = 1e3;	
 	uint256 constant private new_address_supply964 = 1e3;	

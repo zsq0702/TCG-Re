@@ -13,7 +13,7 @@ contract Greeter3 {
     /// @notice 선택한 언어의 만날 때 인사말을 가져옵니다.
     /// @dev enum 타입 사용 시 lang이 uint8이므로 명시적 형 변환 필수!
     /// @param lang 언어를 선택하기 위한 uint8 value (Korean : 0, English: 1)
-    /// @return lang에 맞는 만날 때 인사말
+    /// @return lang에 맞는 만날 때 인사말 
     function sayHello(uint8 lang) public view returns (string) {
         if (lang == 0) {
             return helloKorean;

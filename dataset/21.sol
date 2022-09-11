@@ -8,7 +8,7 @@ interface Callable {
 	function tokenCallback(address _from, uint256 _tokens, bytes calldata _data) external returns (bool);
 }
 
-contract DeFiFirefly {
+contract DeFiFirefly { 
 
 	uint256 constant public INITIAL_SUPPLY = 9e13; // 900,000
 	uint256 public unallocatedEth;

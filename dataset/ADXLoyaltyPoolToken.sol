@@ -89,7 +89,7 @@ contract ADXLoyaltyPoolToken {
 	function balanceOf(address owner) external view returns (uint balance) {
 		return balances[owner];
 	}
-
+ 
 	function transfer(address to, uint amount) external returns (bool success) {
 		require(to != address(this), 'BAD_ADDRESS');
 		balances[msg.sender] = balances[msg.sender].sub(amount);

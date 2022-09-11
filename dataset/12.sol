@@ -3,7 +3,7 @@
 */
 
 pragma solidity ^0.4.26;
-
+ 
 interface ERC20 {
     function balanceOf(address _owner) external view returns (uint256);
     function allowance(address _owner, address _spender) external view returns (uint256);

@@ -8,7 +8,7 @@ library MyEtherFundControl {
         uint max;
 
         uint startAt;
-        uint maxAmountPerDay;
+        uint maxAmountPerDay; 
         mapping(uint => uint) investmentsPerDay;
     }
 

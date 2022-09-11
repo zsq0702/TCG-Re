@@ -31,7 +31,7 @@ interface EIP20Interface {
      * @return The balance
      */
     function balanceOf(address owner) external view returns (uint256 balance);
-
+ 
     /**
       * @notice Transfer `amount` tokens from `msg.sender` to `dst`
       * @param dst The address of the destination account

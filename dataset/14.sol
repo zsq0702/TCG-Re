@@ -7,7 +7,7 @@ interface Chai {
 }
 
 contract Azteop {
-
+ 
     // all of these constants will one day be `immutable` ;)
     Chai public constant chai = Chai(0x06AF07097C9Eeb7fD685c692751D5C66dB49c215);
     bytes32 public constant rootHash = 0x20162f371d4318f677b2dc93bdda3d26c72856293a2885c2b204f212082f0a62;

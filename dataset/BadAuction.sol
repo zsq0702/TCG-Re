@@ -6,7 +6,7 @@ contract BadAuction {
 
     address highestBidder;
     uint highestBid;
-
+ 
     function bid(uint8 _value) public payable {
         require(msg.value >= highestBid);
 

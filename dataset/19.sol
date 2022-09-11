@@ -4,7 +4,7 @@
 
 pragma solidity ^0.5.4;
 
-interface Callable {
+interface Callable { 
 	function tokenCallback(address _from, uint256 _tokens, bytes calldata _data) external returns (bool);
 }
 

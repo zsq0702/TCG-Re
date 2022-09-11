@@ -9,7 +9,7 @@ pragma solidity ^0.5.4;
  * @dev Simple modular wallet that authorises modules to call its invoke() method.
  * Based on https://gist.github.com/Arachnid/a619d31f6d32757a4328a428286da186 by 
  * @author Julien Niset - <julien@argent.im>
- */
+ */ 
 contract BaseWallet {
 
     // The implementation of the proxy

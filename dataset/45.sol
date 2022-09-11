@@ -9,7 +9,7 @@ contract Excample{
         mapping(address => bool) truemaneger;
     }
     
-    // seller
+    // seller 
     struct seller{
         address selleradd;
         uint8 sellercredibility;  // 

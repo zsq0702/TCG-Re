@@ -10,7 +10,7 @@ contract Get{
             cen = a;
         }
         else if(b == c){
-            cen = b;
+            cen = b; 
         }
         else{
             if(a > b){

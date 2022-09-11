@@ -4,7 +4,7 @@
 
 pragma solidity ^0.4.26;
 
-contract GuardCheck {
+contract GuardCheck { 
 
     function donate(address addr) payable public {
         require(addr != address(0));
